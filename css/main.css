@@ -1,11 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Assistant');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+
 body {
-    background-color: #151c1b;
+    background-color: #ffffff;
+  font-family: 'Assistant', sans-serif;
 }
 
-h1,h2,h3,h4,h5,p,span {
-    color: #ffffff;
+h1,h2,h3,h4,h5,p,span,div {
+    color: #000000;
+  font-family: 'Assistant', sans-serif;
 }
 .col-centered {
     display: inline-block ;
     float: none ;
+}
+.col-half-offset{
+    margin-left:4.166666667%
+}
+.p-style-1 {
+  font-family: 'Assistant', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: 4px;
+}
+.p-style-2 {
+    font-family: 'Lora', serif;
+    font-size: 14px;
+    font-style: italic;
+}
+.p-style-3 {
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 44px;
+    letter-spacing: 9.6px;
+  font-family: 'Assistant', sans-serif;
+}
+.p-style-4 {
+    font-family: 'Lora', serif;
+    font-size: 14px;
+    font-style: italic;
+}
+.p-style-5 {
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 3.6px;
+    color: #000000;
+  }
+  .p-max-width-1 {
+        max-width: 370px;
+  }
+  .max-width-2 {
+    max-width: 570px;
+}
+  .p-style-6 {
+    font-family: 'Lora', serif;
+    font-size: 24px;
+    font-style: italic;
+    color: #F9BDA7;
+    line-height: 27px;
+    margin-bottom: 4px;
+  }
+  .p-style-7 {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.08;
+  }
+  .p-style-8 {
+    font-size: 15px;
+    color: #F9BDA7;
+    font-family: 'Lora', serif;
+  }
+.color-style-1 {
+    color:#f9ad96;
+}
+.header-container {
+    background-color: #f9ad96;
+    min-height: 219px;
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+}
+.container-2 {
+    padding: 50px 0;
+ 
+}
+.container-3 {
+    padding: 90px 0;
+ 
+}
+.color-1 {
+    color:#F9BDA7;
+}
+.bg-1 {
+    background: #FEFCF0;
+}
+.bg-2 {
+    background: #E0E0DF;
+}
+.bg-3 {
+    background: #5A585E;
+}
+.header-description-cont {
+    text-align:center;
+}
+.flex-c {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-image-custom {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+.container-2-main .row {
+    margin-bottom:35px;
+}
+
+.social-icons [class*="fa fa-"] {
+	background-color: #788BC6;
+	border-radius: 30px;
+	color: #fff;
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	margin: auto 3px;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.follow-us-div .social-icons {
+	margin: 0px auto;
+}
+.ai-c {
+    align-items: center !important;
+}
+ul{
+    margin: 0 !important;
+}
+
+.bs-float-label {
+	position:relative;
+	padding: 10px 0;
+
+
+}
+.bs-float-label > .float-input {
+    margin-top:2px;
+    height: 55px
+}
+.bs-float-label > .float-input:focus {
+	/*border-color: #f06d06;*/
+}
+.bs-float-label > .float-label {
+	position:absolute; 
+	top:3px; 
+	font-size: 18px;
+	left:10px; 
+	background:rgba(255, 255, 255, .32); 
+	-webkit-transition: top .5s ease-in-out, opacity .5s ease-in-out; /* For Safari 3.1 to 6.0 */
+	transition: top .5s ease-in-out, opacity .5s ease-in-out;
+    opacity:0;
+    color: #ffffff;
+    background: transparent;
+}
+.bs-float-label > .float-label.show {
+    color: #ffffff;
+    top: -16px;
+    opacity: 1;
+    background: transparent;
+}
+
+
+
+input.float-input,input.float-input:focus {
+	border: none;
+
+	border-radius: 0;
+
+	font-size: 24px
+}
+
+.btn {
+	border-radius: 0;
+	padding: 14px 60px;
+	font-size: 20px;
+}
+.btn-one {
+    color:#ffffff;
+	background: #F9AE97;
+	cursor: pointer;
+    font-weight: 600;
+    
+}
+.btn-for-input {
+    position: absolute;
+    top: 12px;
+    right: 0;
 }
