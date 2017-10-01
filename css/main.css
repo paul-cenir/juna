@@ -136,7 +136,7 @@ h1,h2,h3,h4,h5,p,span,div {
 }
 
 .follow-us-div .social-icons {
-	margin: 0px auto;
+	/* margin: 0px auto; */
 }
 .ai-c {
     align-items: center !important;
@@ -203,4 +203,23 @@ input.float-input,input.float-input:focus {
     position: absolute;
     top: 12px;
     right: 0;
+}
+.book-circle {
+    width: 84px;
+    height: 84px;
+    background: #788BC6;
+    position: absolute;
+    border-radius: 50%;
+    top: 9px;
+    left: -53px;
+}
+.p-relative {
+    position: relative;
+    
+}
+.s-circle {
+    color: #ffffff;
+    top: 27px;
+    position: relative;
+    left: 12px;
 }
